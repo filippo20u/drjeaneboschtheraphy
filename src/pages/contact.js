@@ -1,13 +1,17 @@
 import React from "react"
-
+import Layout from "../components/layout"
 
 export default function Contact() {
   return (
-    <div style={{ margin: `3rem auto`, maxWidth: 600 }}>
+    <Layout>
+
+    <h1>I'd love to talk! Email me at the address below</h1>
+      <p>
+        <a href="mailto:me@example.com">me@example.com</a>
+      </p>
 
     <img src="https://source.unsplash.com/random/" alt="" />
-     <h1>Contact</h1>
-      <p>version 0.1 Gatsby no CMS</p>
-    </div>
+     
+    </Layout>
   )
 }
